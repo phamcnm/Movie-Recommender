@@ -1,0 +1,10 @@
+pip3 install wikipedia > trash.txt &&
+pip3 install gensim > trash.txt &&
+pip3 install scipy > trash.txt &&
+pip3 install nltk > trash.txt &&
+pip install python-Levenshtein > trash.txt &&
+python -m nltk.downloader wordnet > trash.txt &&
+pip3 install textblob > trash.txt &&
+pip3 install spacy > trash.txt &&
+python -m spacy download en_core_web_sm > trash.txt &&
+rm trash.txt
