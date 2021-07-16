@@ -1,0 +1,25 @@
+Euler's "lucky" numbers are positive integers n such that for all integers k with 1 ≤ k < n, the polynomial k2 − k + n produces a prime number.
+When k is equal to n, the value cannot be prime since n2 − n + n = n2 is divisible by n. Since the polynomial can be written as k(k−1) + n, using the integers k with −(n−1) < k ≤ 0 produces the same set of numbers as 1 ≤ k < n.
+Leonhard Euler published the polynomial k2 − k + 41 which produces prime numbers for all integer values of k from 1 to 40. Only 7 lucky numbers of Euler exist, namely 1, 2, 3, 5, 11, 17 and 41 (sequence A014556 in the OEIS).
+The primes of the form k2 − k + 41 are
+
+41, 43, 47, 53, 61, 71, 83, 97, 113, 131, 151, 173, 197, 223, 251, 281, 313, 347, 383, 421, 461, 503, 547, 593, 641, 691, 743, 797, 853, 911, 971, ... (sequence A005846 in the OEIS).The terminology is ambiguous: "Euler's lucky numbers" are neither the same as, neither related to the "lucky numbers" defined by a sieve algorithm. In fact, the only number which is both lucky and Euler-lucky is 3, since all other Euler-lucky numbers are congruent to 2 modulo 3, but no lucky numbers are congruent to 2 modulo 3.
+
+
+== See also ==
+Heegner number
+List of topics named after Leonhard Euler
+Formula for primes
+Ulam spiral
+
+
+== References ==
+
+
+== Literature ==
+Le Lionnais, F. Les Nombres Remarquables. Paris: Hermann, pp. 88 and 144, 1983.
+Leonhard Euler, Extrait d'un lettre de M. Euler le pere à M. Bernoulli concernant le Mémoire imprimé parmi ceux de 1771, p. 318 (1774). Euler Archive - All Works. 461.
+
+
+== External links ==
+Weisstein, Eric W. "Lucky Number of Euler". MathWorld.
