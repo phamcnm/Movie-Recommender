@@ -63,7 +63,7 @@
 
                                            creator sees at turn.
 
-                                         Elijah escapes cell.
+                                           Elijah escapes cell.
 
     ------------------------------------------------------------------------------------------------------------------------------------------------------
                       Reviews: My first exposure to the templarios& not a good job. Marion davies.                               
