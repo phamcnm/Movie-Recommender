@@ -3,6 +3,13 @@
 ## Co-Authors
   Yuting Su and Minh Pham
   
+## Summary
+
+  We used Wikipedia API(code in `get_movies.py`) to collect 2081 acticles fetched from Lists of American Films between 2000 to 2020. Each article consists of a short summary, a plot, and a list of casts. We then used Doc2Vec model to generate frequency matrix of words that appear in each article. The general idea of Doc2Vec is to create a vector representation of each article that maintains 'points' on 'important' words that can be used to come up with the similarity between two articles (articles that have similar words will likely be realted). We also used named entity recognition to find people's names and/or palces to display on the `Keywords` section and used dependency parsing around those keywords to comeup with `Rephrased Summaries`. We also used markov_chain on thousands of movie reviews in `clean_review.txt` to generate reviews and used sentimental analysis to come up with the rating based on the generated reviews.
+  
+ #### Final product: `search.py`
+   The `search.py` takes in a string on the input and uses Wikipedia API to get a wiki article of a given movie name. It then uses the doc2vec model that are stored in `./bot_dependencies/doc2vec.model` to generate a vector from the fetched article. After that, it gets top five 'most similar movies' by comparing the vector with other vectors in the matrix(generated from 2081 articles) stored in `./bot_dependencies/matrix.dat` by calculating cosine similarity scores. The top 5 articles then go through dependency parsing, markov_chain text generation, and sentimental analysis to create the end result.
+  
 ## Sample Output from Commandline
 
 ### Entering "Hulk" as an input
