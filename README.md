@@ -3,7 +3,7 @@
 ## Co-Authors
   Yuting Su and Minh Pham
   
-## Samples
+## Samples output from commandline
 
 ### Entering "Hulk" as an input
 
